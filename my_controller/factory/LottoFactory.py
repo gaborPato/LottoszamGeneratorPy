@@ -21,7 +21,7 @@ class LottoFactory:
                 result.append(SixLottoCoupon(self.__fix_numbers))
 
             if lottotype==C.Strings.seven_lotto_type():
-                result.append(self.__fix_numbers)
+                result.append(SevenLottoCoupon(self.__fix_numbers))
 
         return result
 
